@@ -1,0 +1,16 @@
+@media(max-width: 800px){
+    
+    #nav-links{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    margin-top: 5px;
+}
+    #about{
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        'one'
+        'two';
+    margin: 20px 0;
+}
+}
